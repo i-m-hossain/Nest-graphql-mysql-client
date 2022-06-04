@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 const Movie = ({ movie }) => {
     const { Title, Year, Type, Poster, imdbID } = movie;
     const handelTicket = (id) => {
-        console.log(id);
+        
     };
     return (
         <Card style={{ width: "18rem" }} className="mb-5">
